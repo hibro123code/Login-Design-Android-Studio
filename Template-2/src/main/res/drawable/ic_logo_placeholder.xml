@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- 1. Vòng tròn lớn màu trắng (nền) - Bán kính 10 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,2 C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z"/>
+
+    <!-- 2. Vòng tròn màu xanh lam (lớp giữa) - Bán kính 9 -->
+    <path
+        android:fillColor="#1E88A8"
+        android:pathData="M12,3 C7.03,3 3,7.03 3,12s4.03,9 9,9 9,-4.03 9,-9 S16.97,3 12,3z"/>
+
+    <!-- 3. Vòng tròn nhỏ màu trắng (lớp trên cùng) - Bán kính 8 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,4 C7.58,4 4,7.58 4,12s3.58,8 8,8 8,-3.58 8,-8 S16.42,4 12,4z"/>
+
+    <path
+        android:fillColor="#1E88A8"
+        android:pathData="M3,11.25 L10,11.25 L10,9.75 L13,12 L10,14.25 L10,12.75 L3,12.75 Z"/>
+
+</vector>
